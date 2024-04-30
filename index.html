@@ -12,18 +12,22 @@
     <link rel="stylesheet" href="css/color-3.css" class="alternate-style" title="color-3" disabled>
     <link rel="stylesheet" href="css/color-4.css" class="alternate-style" title="color-4" disabled>
     <link rel="stylesheet" href="css/color-5.css" class="alternate-style" title="color-5" disabled>
+   
 </head>
 <body>
     <!-- ==== main container start ==== -->
     <div class="main-container">
 
         <!-- ====side nav bar start ====-->
-        <div class="aside">
+        
             <div class="aside">
                 <div class="logo">
                     <a href="#"><span>P</span>ortfolio</a>
                 </div>
-                <div class="nav-toggler">
+                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button> -->
+               <div class="nav-toggler">
                     <span></span>
                 </div>
                 <div class="nav">
@@ -34,7 +38,7 @@
                     <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
                 </div>
             </div>
-        </div>
+       
          <!-- ====side nav bar end ====-->
      
          <!--===main content start==  -->
@@ -48,7 +52,7 @@
                                 <h3 class="hello">Hello, my name is <span class="name">Hari Haran</span></h3>
                                 <h3 class="my-profession">I' m a <span class="typing">Web Developer</span></h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, aspernatur.</p>
-                                <a href="#contact" class="btn hire-me">Hire Me</a>
+                                <a href="#" class="btn">Download CV</a>
                             </div>
                             <div class="home-img padd-15">
                                 <img src="" alt="">
@@ -84,28 +88,30 @@
                                 <p>Birthday : <span>15 may 1998</span></p>
                             </div>
                             <div class="info-item padd-15">
-                                <p>Age : <span>25</span></p>
-                            </div>
-                            <div class="info-item padd-15">
-                                <p>Email : <span>hariperumalhp@gmail.com</span></p>
-                            </div>
-                            <div class="info-item padd-15">
                                 <p>Degree : <span>BSC</span></p>
-                            </div>
-                            <div class="info-item padd-15">
-                                <p>Phone : <span>9944386747</span></p>
                             </div>
                             <div class="info-item padd-15">
                                 <p>City : <span>Chengalpattu</span></p>
                             </div>
                             <div class="info-item padd-15">
+                                <p>Age : <span>25</span></p>
+                            </div>
+                            <div class="info-item padd-15">
+                                <p>Phone : <span>9944386747</span></p>
+                            </div>
+                            
+                            <div class="info-item padd-15">
                                 <p>Freelnace : <span>Avilable</span></p>
                             </div>
+                             <div class="info-item padd-15">
+                                <p>Email : <span>hariperumalhp@gmail.com</span></p>
+                            </div>
+                            
                         </div>
                         <div class="row">
                           <div class="buttons padd-15">
-                            <a href="#" class="btn">Download CV</a>
-                            <a href="contact" class="btn hire-me">Hire me</a>
+                            <!-- <a href="#" class="btn">Download CV</a> -->
+                            <a href="#contact" data-section-index="1" class="btn hire-me">Hire me</a>
                           </div>
                         </div>
                     </div>
@@ -407,7 +413,7 @@
             <i class="fas fa-cog fa-spin"></i>
         </div>
         <div class="day-night s-icon">
-            <i class="fa "></i>
+            <i class="fas"></i>
         </div>
         <h4>Theme color</h4>
         <div class="colors">
@@ -424,5 +430,9 @@
 
 <script src="style-switcher.js"></script>
 <script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
